@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* My code */
+*{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    
+    animation: op 1s forwards ease-in-out;
+    
+}
+@keyframes op{
+  from{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+@font-face{
+	font-family: 'MyWebFont';
+	src: url("font/Signika-Light.ttf") format('signilight'),
+		 url("font/Signika-Bold.ttf"),
+		 url("font/Signika-SemiBold.ttf"),
+		 url("font/Signika-Regular.ttf");
+}
+
+.tilbage{
+	float: left;
+	margin: 100px 0 0 90px;
+	position: absolute;
+}
+.tilbage img{
+	width: 30px;
+	height: 30px;
+}
+.logo{
+	float: right;
+	margin: 50px 40px 0 0;
+	position: inherit;
+}
+.leftline{
+	float: left;
+	width: 200px;
+	margin: 254.4px 0 0 100px; 
+}
+h4{
+	display: inline-block;
+	font-family: "Signika Light";
+	font-size: 50px;
+	float: left;
+	margin: 244.4px auto 0 78.998px;
+}
+.rightline{
+	float: right;
+	width: 200px;
+	margin: 165px 100px 0 0px;
+}
+.fb-login{
+	float: left;
+	position: relative;
+	width: 15%;
+	height: 10px;
+	border: solid 3px #707070;
+	padding: 60px 80px;
+	margin: 150px 0 60px 100px;
+	background-color: #3B579D;
+	border-radius: 10px;
+}
+.fb-login img{
+	height: 88px;
+	widows: 88px;
+	border: solid 3px #FFFFFF;
+	border-radius: 10px;
+	margin: -40px auto;
+	display: block;
+	padding: 0;
+}
+p{
+	font-family: "Signika Light";
+	font-size: 35px;
+	float: left;
+	margin: 208px 0 0 47px;
+}
+.g-login{
+	float: right;
+	position: relative;
+	width: 15%;
+	height: 10px;
+	border: solid 3px #707070;
+	padding: 60px 80px;
+	margin: 150px 100px 60px 0px;
+	background-color: #FFF;
+	border-radius: 10px;
+}
+.g-login img{
+	height: 88px;
+	widows: 88px;
+	border-radius: 10px;
+	margin: -40px auto;
+	display: block;
+	padding: 0;
+}
+.infoboxe{
+	float: left;
+	position: relative;
+	margin: 0 auto;
+}
+.infoboxe input{
+	border: solid 2px #707070;
+	border-radius: 10px;
+	background: transparent;
+	outline: none;
+	height: 80px;
+	width: calc(79% - 30px);
+	margin: 130px 0 0 100px;
+	font-family: "Signika Light";
+	font-size: 40px; 
+}
+.infoboxe input[type="text"]{
+	padding-left: 30px;
+}
+.opretbox{
+	float: left;
+	position: relative;
+	height: 160px;
+	width: 79%;
+	margin: 200px 0 0 100px;
+	border: solid 3px #707070;
+	background-color: #59B08D;
+	border-radius: 10px;
+}
+.opretbox p{
+	font-family: "Signika Light";
+	font-size: 50px;
+	color: #FFF;
+	margin: 60px 325px;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
