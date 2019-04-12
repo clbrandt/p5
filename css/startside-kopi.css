@@ -26,7 +26,7 @@
     width:80%;
     height: 350px;
     margin: 100px 50px;
-    background-image: url(../img/gultr%C3%B8je.jpeg);
+    background-image: url(../icons-kopi/videoer.png);
     background-size: cover;
    
 }
@@ -38,7 +38,7 @@
     width: 80%;
     height: 350px;
     margin: 200px 50px;
-    background-image: url(../img/diytoilettaskestrik.jpeg);
+    background-image: url(../icons-kopi/kits.png);
     background-size: cover;
 }
 #rcorners2 {
@@ -48,7 +48,7 @@
     width: 80%;
     height: 350px;
     margin: 200px 50px;
-    background-image: url(../img/kyllinger.jpeg);
+    background-image: url(../icons-kopi/uploadditeget.png);
     background-size: cover;
 }
 
@@ -59,7 +59,7 @@
     width: 80%;
     height: 350px;
     margin: 200px 50px;
-    background-image: url(../img/lyserodtaske.png);
+    background-image: url(../icons-kopi/bloggen.png);
     background-size: cover;
 }
 
@@ -70,7 +70,7 @@
     width: 80%;
     height: 350px;
     margin: 200px 50px;
-    background-image: url(../img/strikhansker.png);
+    background-image: url(../icons-kopi/designditeget.png);
     background-size: cover;
 }
 
@@ -81,7 +81,7 @@
     width: 80%;
     height: 350px;
     margin: 200px 50px;
-    background-image: url(../img/pige.png);
+    background-image: url(../icons-kopi/kategori.png);
     background-size: cover;
 }
 
