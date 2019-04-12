@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    
+    animation: op 1s forwards ease-in-out;
+    
+}
+@keyframes op{
+  from{
+        transform: translateY(10%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+@font-face{
+	font-family: 'MyWebFont';
+	src: url("font/Signika-Light.ttf") format('signilight'),
+		 url("font/Signika-Bold.ttf"),
+		 url("font/Signika-SemiBold.ttf"),
+		 url("font/Signika-Regular.ttf");
+}
+html, body{
+    height: 100%;
+}
+
+#container{
+    min-height: 100%;
+}
+
+#main{
+    overflow: auto;
+    padding-bottom: 150px;
+}
+
+.parent-div{
+    width: 960px;
+    border: 2px;
+    margin: 0 auto;
+    padding-bottom: 75px;
+    padding-top: 75px;
+}
+
+.child-div{
+    width: 650px;
+    border: 2px;
+    margin: 0 auto;
+    border-radius: 55px; 
+    padding-top: 40px;
+}
+
+.parent-div1{
+    width: 960px;
+    border: 2px;
+    margin: 0 auto;
+    padding-bottom: 75px;
+    padding-top: 30px;
+}
+
+.child-div1{
+    width: 650px;
+    border: 2px;
+    margin: 0 auto;
+    border-radius: 55px; 
+}
+
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Signika Light";
+}
+
+/*-----------FOOTER/Navbar-----------*/
+
+
+
+
+
+#footer{
+    background-color: #DFC0D9;
+    position: relative;
+    height: 150px;
+    margin-top: -150px;
+    clear: both;
+}
+
+
+
+.icon-bar a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #BF81B4;
+}
+
+.active {
+  background-color: #74476B;
+
+}
+
+.logo{
+	float: right;
+	margin: 50px 40px 0 0;
+	position: inherit;
+}
+
+
+
