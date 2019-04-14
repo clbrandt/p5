@@ -80,6 +80,7 @@ input[type=text], select, textarea {
   resize: vertical;
     font-size: 40px;
     font-family: 'signilight';
+    margin-bottom: 50px;
 }
 
 
@@ -112,13 +113,56 @@ input[type=text], select, textarea {
     text-align: center;
 }
 
-p1{
+p{
     padding-top: 25px;
     float: left;
     font-size: 30px;
-    font-family:'signilight';
-    
+    font-family:'signilight';  
+    margin-top: 75px;
 }
+
+p5{
+    padding-top: 75px;
+    float: left;
+    font-size: 30px;
+    font-family:'signilight';
+  margin-top: 100px;
+}
+.opretbox{
+	float: left;
+	position: relative;
+	height: 160px;
+	width: 79%;
+	margin: 200px 0 0 100px;
+	border: solid 3px #707070;
+	background-color: #59B08D;
+	border-radius: 10px;
+}
+.opretbox p1{
+	font-family: "Signika Light";
+	font-size: 50px;
+	color: #FFF;
+	margin: 60px 325px;
+	text-decoration: underline;
+   float: left;
+}
+
+button1 {
+  background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+    float: right;
+    border-radius: 10px;
+    border: solid 3px #707070;
+}
+
 .button {
   background-color: red; /* Green */
   border: none;
@@ -133,6 +177,7 @@ p1{
     float: right;
     border-radius: 10px;
     border: solid 3px #707070;
+    margin-top: 75px;
 }
 
 .button2 {background-color: yellow; border: solid 3px #707070;} 
