@@ -1,13 +1,9 @@
 
-*
-{
-    box-sizing: border-box;
-}
-
 .column {
     float: left;
-    width: 50%;
+    width: 40%;
     padding: 10px;
+    margin-top: 200px;
   
 }
 
@@ -18,69 +14,69 @@
 }
 
 
-
-#rcorners {
+.video {
     border-radius: 15px;
     border: 1px solid grey;
-    padding: 20px;
-    width:80%;
+    padding: 15px;
+    width:85%;
     height: 350px;
-    margin: 100px 50px;
-    background-image: url(../icons-kopi/videoer.png);
+    margin: 100px 80px;
+    background-image: url(../icons-kopi/);
     background-size: cover;
+    
    
 }
 
-#rcorners1 {
+.kit {
     border-radius: 15px;
     border: 1px solid grey;
-    padding: 20px;
-    width: 80%;
+    padding: 15px;
+    width: 85%;
     height: 350px;
-    margin: 200px 50px;
+    margin: 100px 80px;
     background-image: url(../icons-kopi/kits.png);
     background-size: cover;
 }
-#rcorners2 {
+.upload {
     border-radius: 15px;
     border: 1px solid grey;
-    padding: 20px;
-    width: 80%;
+    padding: 15px;
+    width: 85%;
     height: 350px;
-    margin: 200px 50px;
-    background-image: url(../icons-kopi/uploadditeget.png);
+    margin: 100px 85px;
+    background-image: url(../icons-kopi/);
     background-size: cover;
 }
 
-#rcorners3 {
+.blog {
     border-radius: 15px;
     border: 1px solid grey;
-    padding: 20px;
-    width: 80%;
+    padding: 15px;
+    width: 85%;
     height: 350px;
-    margin: 200px 50px;
+    margin: 100px 85px;
     background-image: url(../icons-kopi/bloggen.png);
     background-size: cover;
 }
 
-#rcorners4 {
+.design {
     border-radius: 15px;
     border: 1px solid grey;
-    padding: 20px;
-    width: 80%;
+    padding: 15px;
+    width: 85%;
     height: 350px;
-    margin: 200px 50px;
+    margin: 100px 85px;
     background-image: url(../icons-kopi/designditeget.png);
     background-size: cover;
 }
 
-#rcorners5 {
+.kategori {
     border-radius: 15px;
     border: 1px solid grey;
-    padding: 20px;
-    width: 80%;
+    padding: 15px;
+    width: 85%;
     height: 350px;
-    margin: 200px 50px;
+    margin: 100px 85px;
     background-image: url(../icons-kopi/kategori.png);
     background-size: cover;
 }
@@ -95,7 +91,7 @@ html, body{
 }
 
 #container{
-    min-height: 12%;
+    min-height: 20%;
 }
 
 #main{
@@ -109,6 +105,7 @@ html, body{
     height: 150px;
     margin-top: -150px;
     clear: both;
+    
 }
 
 .icon-bar a {
@@ -129,8 +126,3 @@ html, body{
   background-color: #74476B;
 
 }
-
-.logo{
-	float: right;
-	margin: 50px 40px 0 0;
-	position: inherit;
