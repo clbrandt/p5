@@ -2,8 +2,8 @@
 .column {
     float: left;
     width: 40%;
-    padding: 10px;
-    margin-top: 200px;
+    padding: 15px;
+    margin-top: 40px;
   
 }
 
@@ -43,7 +43,7 @@
     padding: 15px;
     width: 85%;
     height: 350px;
-    margin: 120px 85px;
+    margin: 100px 85px;
     background-image: url(../icons-kopi/uploadditeget.png);
     background-size: cover;
 }
@@ -54,7 +54,7 @@
     padding: 15px;
     width: 85%;
     height: 350px;
-    margin: 120px 85px;
+    margin: 100px 85px;
     background-image: url(../icons-kopi/bloggen.png);
     background-size: cover;
 }
@@ -65,7 +65,7 @@
     padding: 15px;
     width: 85%;
     height: 350px;
-    margin: 120px 85px;
+    margin: 100px 85px;
     background-image: url(../icons-kopi/designditeget.png);
     background-size: cover;
 }
@@ -76,7 +76,7 @@
     padding: 15px;
     width: 85%;
     height: 350px;
-    margin: 120px 85px;
+    margin: 100px 85px;
     background-image: url(../icons-kopi/kategori.png);
     background-size: cover;
 }
@@ -91,7 +91,7 @@ html, body{
 }
 
 #container{
-    min-height: 20%;
+    min-height: 23.7%;
 }
 
 #main{
