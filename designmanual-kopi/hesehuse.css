@@ -9,22 +9,23 @@ section {
 width: 100%; 
 height: 1000px; 
 float: left;
+    
 }
 
 #pageA {
-background: white;
+background: whitesmoke;
 }
 #pageB {
-background: white;
+background:whites;
 }
 #pageC {
-background: white;
+background: whitesmoke;
 }
 #pageD {
 background: white;
 }
 #pageE {
-background: white;
+background: whitesmoke;
 }
 
 #pageF{
@@ -33,9 +34,9 @@ background: white;
 
 .logo {
     position:absolute;
-    top:180%;
-    left: 50%;
-    height: 400px;
+    top:190%;
+    left:35%;
+    height: 300px;
     width:400px;
     
 }
