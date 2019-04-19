@@ -4,3 +4,7 @@ function myFunction() {
 x.setAttribute("type", "file");
   document.body.appendChild(x);
 }
+
+function myFunction() {
+  document.getElementById("fname").maxlength ="4";
+}
