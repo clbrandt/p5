@@ -31,6 +31,148 @@ background: white;
     background: white;
 }
 
+.logo {
+    position:absolute;
+    top:180%;
+    left: 50%;
+    height: 400px;
+    width:400px;
+    
+}
+
+.farve1 {
+    position:absolute;
+    top:350%;
+    left: 28%;
+    height: 120px;
+    width: 230px;
+    background-color: #BF81B4;
+    
+}
+
+    p {
+    top: 370%;
+    left: 28%;
+    position: absolute;
+    font-family: signika;
+}
+
+.farve2 {
+    position:absolute;
+    top:350%;
+    left: 54%;
+    height: 120px;
+    width: 230px;
+    background-color: #585D5B;
+    
+}
+
+    p1 {
+    top: 370%;
+    left: 54%;
+    position: absolute;
+    font-family: signika;
+    }
+
+
+.farve3 {
+    position:absolute;
+    top:380%;
+    left: 28%;
+    height: 120px;
+    width: 230px;
+    border: 1px solid lightgray;
+    background-color: white;
+    
+}
+
+    p2 {
+    top: 400%;
+    left: 28%;
+    position: absolute;
+    font-family: signika;
+    }
+
+
+.farve4 {
+    position:absolute;
+    top:380%;
+    left: 54%;
+    height: 120px;
+    width: 230px;
+    background-color: #59B08D;
+    
+}
+
+    p3 {
+    top: 400%;
+    left: 54%;
+    position: absolute;
+    font-family: signika;
+    }
+
+
+.img1 {
+    top: 510%;
+    left: 28%;
+    position: absolute;
+    height: 330px;
+    width: 330px;
+}
+
+.img2 {
+    top: 520%;
+    left: 54%;
+    position: absolute;
+    height: 200px;
+    width: 250px;
+}
+
+p4 {
+    top:555%;
+    left:30%;
+    position: absolute;
+    font-family: signika;
+    font-size: 20px;
+}
+
+.glad {
+    position:absolute;
+    top:670%;
+    left: 28%;
+    height: 120px;
+    width: 230px;
+    border: 1px solid lightgray;
+    font-family: signika;
+    font-size:30px;
+    
+}
+
+.rolig {
+    position:absolute;
+    top:670%;
+    left: 54%;
+    height: 120px;
+    width: 230px;
+    border: 1px solid lightgray;
+    font-family: signika;
+    font-size:30px;
+    
+}
+
+.pro {
+    position:absolute;
+    top:705%;
+    left: 28%;
+    height: 120px;
+    width: 230px;
+    border: 1px solid lightgray;
+    font-family: signika;
+    font-size:30px;
+    
+}
+
+
 nav{
 width: 100%; 
 position: fixed;
@@ -53,11 +195,13 @@ ul li a{
 color: black; 
 text-decoration: 
 none;
+    font-family: signika;
 }
 
 ul li a:hover{
 text-decoration:
 none;
+    
 }
 
 h1{
@@ -72,4 +216,6 @@ text-align: center;
 
 h1{
     font-size: 40px;
+    font-family: signika;
+    font-weight: lighter;
 }
