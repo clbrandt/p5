@@ -4,3 +4,10 @@ function myFunction() {
 x.setAttribute("type", "file");
   document.body.appendChild(x);
 }
+
+        function charcounts (startfrom, charend)
+        {
+            var len=document.getElementById(startfrom).value.length;
+            document.getElementById(charend).innerHTML=len;
+            
+        }
