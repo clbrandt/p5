@@ -5,6 +5,9 @@ x.setAttribute("type", "file");
   document.body.appendChild(x);
 }
 
-function myFunction() {
-  document.getElementById("fname").maxlength ="4";
-}
+function charcounts (startfrom, charend)
+        {
+            var len=document.getElementById(startfrom).value.length;
+            document.getElementById(charend).innerHTML=len;
+            
+        }

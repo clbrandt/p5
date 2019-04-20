@@ -29,7 +29,8 @@
     <input type="text" id="fname" name="firstname" placeholder="Titel" style="height: 150px">
       
        <label for="subject"></label>
-    <textarea id="subject" name="subject" placeholder="Beskrivelse" style="height:300px"></textarea>
+    <textarea placeholder="Tekst" id="value" rows="8" cols="20" maxlength="150" style="font-size:40px; height: 400px" onkeyup="charcounts('value', 'countchar');" onkeydown="charcounts('value, 'countchar');" onmouseout="charcounts('value', 'countchar');"></textarea><br>
+    <h2>Du har indtastet <span id="countchar"style="color: red:">>0</span> tegn </h2>
 
        <label for="lname"></label>
     <input type="text" id="lname" name="lastname" placeholder="Produkter" style="height: 150px">
