@@ -35,7 +35,7 @@ background: whitesmoke;
 .logo {
     position:absolute;
     top:190%;
-    left:35%;
+    left:34%;
     height: 300px;
     width:400px;
     
@@ -143,11 +143,22 @@ p4 {
     left: 28%;
     height: 120px;
     width: 230px;
-    border: 1px solid lightgray;
     font-family: signika;
     font-size:30px;
+   
     
 }
+
+p5{ 
+    top:677%;
+    left:28%;
+    position: absolute;
+    font-family: signika;
+    font-size: 15px;
+    
+
+}
+
 
 .rolig {
     position:absolute;
@@ -155,10 +166,19 @@ p4 {
     left: 54%;
     height: 120px;
     width: 230px;
-    border: 1px solid lightgray;
     font-family: signika;
     font-size:30px;
     
+}
+
+
+p6{ 
+    top:677%;
+    left:54%;
+    position: absolute;
+    font-family: signika;
+    font-size: 15px;
+
 }
 
 .pro {
@@ -167,10 +187,77 @@ p4 {
     left: 28%;
     height: 120px;
     width: 230px;
-    border: 1px solid lightgray;
     font-family: signika;
     font-size:30px;
     
+}
+
+p7{ 
+    top:712%;
+    left:28%;
+    position: absolute;
+    font-family: signika;
+    font-size: 15px;
+
+}
+
+.knapperimg {
+    top: 820%;
+    left: 28%;
+    position: absolute;
+    height: 100px;
+    width: 300px;
+
+}
+
+.knapimg {
+    top: 820%;
+    left: 54%;
+    position: absolute;
+    height: 100px;
+    width: 230px;
+
+}
+
+p8{ 
+    top:840%;
+    left:28%;
+    position: absolute;
+    font-family: signika;
+    font-size: 15px;
+
+}
+
+.bølgerimg {
+    top: 855%;
+    left: 28%;
+    position: absolute;
+    height: 230px;
+    width: 230px;
+}
+
+.bladimg {
+    top: 855%;
+    left: 54%;
+    position: absolute;
+    height: 230px;
+    width: 230px;
+}
+
+.murimg {
+    top: 895%;
+    left: 28%;
+    position: absolute;
+    height: 230px;
+    width: 230px;
+}
+
+.blomstimg {
+    top: 895%;
+    left: 54%;
+    position: absolute;
+    height: 230px;
+    width: 230px;
 }
 
 
